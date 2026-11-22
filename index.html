@@ -27,7 +27,7 @@
 <p>Your choices (language, country, purpose, karat and any custom VAT rate) are stored only on your device so the app can remember them. This information is not sent to us.</p>
 
 <h2>Gold prices</h2>
-<p>To show current prices, the app requests public gold-rate data from third-party rate sources over the internet. These requests are standard network requests and may expose your IP address to those services. The numbers you type into the calculator never leave your device.</p>
+<p>To show current prices, the app downloads a rates file from our own rates service, which is hosted by Cloudflare. If that service is unavailable, the app requests public gold-rate data directly from third-party rate sources instead. These requests are standard network requests and may expose your IP address to Cloudflare or to those sources; Cloudflare may keep ordinary server logs. The rates file is the same for everyone: it contains only prices, and the service receives no information about you or your use of the calculator. The numbers you type into the calculator never leave your device.</p>
 
 <h2>Subscriptions</h2>
 <p>The app requires an auto-renewing subscription. Payments are processed by Apple through your Apple ID; we never see your payment details. To manage subscriptions and unlock access, the app uses RevenueCat, which receives an anonymous app-user identifier, your purchase and subscription status, and basic device and app information. See RevenueCat's privacy policy at <a href="https://www.revenuecat.com/privacy">revenuecat.com/privacy</a>. You can cancel any time in your device's Settings &gt; Apple ID &gt; Subscriptions.</p>
